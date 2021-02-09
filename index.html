@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Rank Greeting</title>
+<script src="rank.css"></script>
+<script src="jquery-3.5.1.min.js"></script>
+<script src="rank.js"></script>
+</head>
+
+<form>
+	
+	<!-- Title For Radio Button -->
+	<h3>Military Rank</h3>
+	
+	<!-- Code For Radio Button -->
+	<input type="radio" name="rank" id="captain" value="Captain" checked="checked">
+	<label for="captain">Captain</label>
+	
+	<input type="radio" name="rank" id="colonel" value="Colonel">
+	<label for="colonel">Colonel</label>
+	
+	<input type="radio" name="rank" id="general" value="General">
+	<label for="general">General</label>
+	
+	<br>
+	
+	<!-- Title For Name Text Boxes -->
+	
+	<h3>Name</h3>
+	
+	<!-- Code For First Name Box -->
+
+	<label for="firstName">First Name</label>
+	<input type="text" name="firstName" id="firstName" required>
+	
+	<!-- Code For Last Name Box -->
+	
+	<label for="lastName">Last Name</label>
+	<input type="text" name="lastName" id="lastName" required>
+	
+	<br>
+	<br>
+	<!-- Code For Submit Button -->
+	
+	<input type="submit" name="submit" id="submit">
+	
+	<!-- Space For Greeting To Be Written -->
+	
+	<p id="greeting"></p>
+	
+</form>
+<body>
+</body>
+</html>
